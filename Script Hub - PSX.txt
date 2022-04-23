@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("Script Hub -- By Retro", "BloodTheme")
+local Window = Library.CreateLib("Script Hub -- By psxforfun6", "BloodTheme")
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("StupidShit")
 Section:NewButton("Please Join My Discord", "Press To Copy Invitation to Clipboard", function ()
@@ -19,7 +19,7 @@ Section:NewKeybind("Activate/Deactivate GUI", "You Can Customize To The Key You 
 end)
 
 
-local Tab = Window:NewTab("Pet SIm X")
+local Tab = Window:NewTab("Pet Sim X")
 local Section = Tab:NewSection("Press To Execute Script")
 Section:NewButton("Key - Press To Copy Key To Clipboard ", "Press To Copy To Clipboard", function ()
 _G.AuthKey = "3A9B0581-DBAC-4508-8F87-B11CC904958D"

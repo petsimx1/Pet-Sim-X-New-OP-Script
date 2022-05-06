@@ -22,7 +22,7 @@ end)
 local Tab = Window:NewTab("Pet Sim X")
 local Section = Tab:NewSection("Press To Execute Script")
 Section:NewButton("Key - Press To Copy Key To Clipboard ", "Press To Copy To Clipboard", function ()
-_G.AuthKey = "534A3F16-4F9D-4790-9CE7-A339952C56B4"
+_G.AuthKey = "6FFC1F6A-AD06-4491-B282-719C84ED7002"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load.lua"))()                      
 end)
 Section:NewButton("PetSimX SCRIPT", "PRESS FOR SCRIPT", function()
